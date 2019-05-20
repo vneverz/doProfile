@@ -1,7 +1,8 @@
 (function($){
 
 	jQuery(function($) {
-	      $("#tick").rss('https://vneverz.nctu.me/index.xml',
+		$("#tick").rss('http://feeds.feedburner.com/vneverz',
+
 	      {
 	        entryTemplate:'<li><a target="_blank" href="{url}">{title} [{date}]</a><br/></li>'
 
