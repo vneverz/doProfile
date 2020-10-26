@@ -1,7 +1,7 @@
 (function($){
 
 	jQuery(function($) {
-		$("#tick").rss('http://feeds.feedburner.com/vneverz',
+		$("#tick").rss('https://feeds.feedburner.com/vneverz',
 
 	      {
 	        entryTemplate:'<li><a target="_blank" href="{url}">{title} [{date}]</a><br/></li>'
