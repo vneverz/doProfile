@@ -1,15 +1,5 @@
 (function($){
 
-	jQuery(function($) {
-		$("#tick").rss('https://feeds.feedburner.com/vneverz',
-
-	      {
-	        entryTemplate:'<li><a target="_blank" href="{url}">{title} [{date}]</a><br/></li>'
-
-	      })
-	    })
-
-
 
 	/* ---------------------------------------------- /*
 	 * Google Map API

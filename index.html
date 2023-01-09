@@ -37,20 +37,6 @@
     ga('create', 'UA-76865482-1', 'auto');
     ga('send', 'pageview');
 
-    $(document).ready(function () {
-
-      $(function ($) {
-        $("#rss-feeds").rss("http://feeds.feedburner.com/vneverz", {
-          dateFormat: 'YYYY.MM.DD',
-          entryTemplate: '<li><a target="_blank" href="{url}">{title}-{date}</a></li>',
-          limit: 6
-        })
-      });
-    });
-
-    window.onload = function () {
-      $('.ticker').ticker();
-    }
   </script>
 
 </head>
@@ -664,52 +650,6 @@
 
   <!-- Skills end -->
 
-  <!-- Testimonials start -->
-
-  <section id="testimonials" class="pfblock pfblock-gray">
-
-    <div class="container">
-
-      <!-- <div class="row">
-
-        <div class="col-sm-6 col-sm-offset-3">
-
-          <div class="pfblock-header wow fadeInUp">
-            <h2 class="pfblock-title">文章</h2>
-            <div class="pfblock-line"></div>
-            <div class="pfblock-subtitle">
-              將關於技術學習的過程記錄下來，新的技術不斷更新，不僅可以鑒往知來，也能夠分享給遇到同樣問題的人，是個正向循環的過程
-            </div>
-          </div> 
-
-        </div>
-
-      </div> -->
-
-      <!-- <div class="row">
-
-        <div id="cbp-qtrotator" class="cbp-qtrotator">
-          <div class="ticker" id="rss-feeds">
-            <span id="wrap1"><strong>Posts:</strong></span>
-          </div>
-             <div class="cbp-qtcontent">
-            <img src="assets/images/client-2.jpg" alt="client-2" />
-            <blockquote>
-              <p>I'm really happy with the results. Get 100% satisfaction is difficult but Alex got it without problems.</p>
-              <footer>Jane Doe</footer>
-            </blockquote>
-        </div> 
-
-        </div>
-
-      </div> -->
-
-    </div><!-- .row -->
-  </section>
-
-  <!-- Testimonial end -->
-
-
   <!-- Contact start -->
 
   <section id="contact" class="pfblock">
@@ -741,19 +681,19 @@
 
         <div class="col-sm-6 col-sm-offset-3">
 
-          <!-- <div class="col-sm-12 col-md-12">
+          <div class="col-sm-12 col-md-12">
             <ul class="social-links text-center">
               <span class="fa fa-heart fa-2x animated pulse"></span>
               <li><a href="https://github.com/vneverz" target="_blank" class="wow fadeInUp"><i
                     class="fa fa-github fa-2x"></i></a></li>
               <li><a href="https://www.facebook.com/doran.wu" target="_blank" class="wow fadeInUp"><i
                     class="fa fa-facebook fa-2x"></i></a></li>
-              <li><a href="https://www.pinterest.com/vneverz/" target="_blank" class="wow fadeInUp"
-                  data-wow-delay=".4s"><i class="fa fa-pinterest fa-2x"></i></a></li>
-              <li><a href="mailto:vneverz@gmail.com?subject=Hi%20Doran%20Wu">
-                  <i class="fa fa-envelope fa-2x"></i></a></li>
+              <!-- <li><a href="https://www.pinterest.com/vneverz/" target="_blank" class="wow fadeInUp"
+                  data-wow-delay=".4s"><i class="fa fa-pinterest fa-2x"></i></a></li> -->
+              <!-- <li><a href="mailto:vneverz@gmail.com?subject=Hi%20Doran%20Wu">
+                  <i class="fa fa-envelope fa-2x"></i></a></li> -->
             </ul>
-          </div> -->
+          </div> 
 
         </div>
 
